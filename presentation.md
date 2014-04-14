@@ -17,7 +17,7 @@ New slide in same section with [link to](http://google.com)
 
 ----------------
 
-![image of](images/diagram.jpg)
+![image of](images/diagram.png)
 
 # Last slide
  - Point 4

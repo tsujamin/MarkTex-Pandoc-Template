@@ -9,7 +9,7 @@ report:
 	pandoc -S  --template=report.template.tex report.md -o report.pdf
 
 presentation: 
-	pandoc -t beamer --template=default.beamer --variable fontsize=10pt -V theme=Warsaw  presentation.md  -o presentation.pdf
+	pandoc -t beamer --template=./presentation.template.tex --variable fontsize=10pt -V theme=Warsaw  presentation.md  -o presentation.pdf
 
 report_words:
 	@echo Word count of report: 
